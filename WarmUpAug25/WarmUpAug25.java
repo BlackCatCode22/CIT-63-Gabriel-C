@@ -76,5 +76,22 @@ public class WarmUpAug25 {
                 innerloop++;
             }
         }
+        for (int outer = 0; outer < 4; outer++) {
+            System.out.println("\n outer = " + outer);
+
+            for (int inner = 0; inner < 6; inner++) {
+                System.out.println("\n inner = " + inner);
+            }
+        }
+        int outerLoop = 0;
+        int innerLoop = 0;
+        while (outerLoop < 3) {
+            System.out.println("\n outerloop = " + outerLoop);
+            while (innerLoop < 5) {
+                System.out.println("\n inner loop = " + innerLoop);
+                innerLoop++;
+            }
+            outerLoop++;
+        }
     }
 }
