@@ -84,9 +84,9 @@ public class WarmUpAug25 {
             }
         }
         int outerLoop = 0;
-        int innerLoop = 0;
         while (outerLoop < 3) {
             System.out.println("\n outerloop = " + outerLoop);
+            int innerLoop = 0;
             while (innerLoop < 5) {
                 System.out.println("\n inner loop = " + innerLoop);
                 innerLoop++;
