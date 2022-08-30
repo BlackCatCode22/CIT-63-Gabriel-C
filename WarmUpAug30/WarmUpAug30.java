@@ -13,7 +13,6 @@ public class WarmUpAug30 {
     public static void main(String[] args) {
        System.out.println("\nWarmup Aug 30th 2022!");
        hello();
-       int result = addTwoNumbers(7, 3);
-       System.out.println("\nThe sum of two numbers is " + result + "\n");
+       System.out.println("\nThe sum of two numbers is " + addTwoNumbers(7, 3) + "\n");
     }
 }
