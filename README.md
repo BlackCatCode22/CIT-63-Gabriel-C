@@ -36,9 +36,9 @@
 # After this step a pop-up window should appear asking you to login to github or the terminal will ask you for your login
 ### this will then process your changes and give you a github link to your repo in the intellij terminal
 ## If it doesnt push your code you might have to pull/fetch first.
-# git pull *YourRepoURL* main (will bring all files ahead of your local folder from github and merge them)
+# git pull &#42;YourRepoURL&#42; main (will bring all files ahead of your local folder from github and merge them)
 # The last command you can type to fix this issue is:
-# git push -f *YourRepoURL* main
+# git push -f &#42;YourRepoURL&#42; main
 
 # Basic Git commands / Git workflow
 
